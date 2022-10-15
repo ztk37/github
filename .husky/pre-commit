@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+if command -v "terraform" &> /dev/null; then
+    echo "Format Terraform files"
+    terraform fmt
+else
+    echo "Terraform not installed. Skip formatting."
+    exit
+fi
