@@ -1,0 +1,10 @@
+# Reference: see https://github.com/github/gitignore/blob/main/Terraform.gitignore
+
+**/.terraform/*
+
+.terraform.lock.hcl
+
+*.tfvars
+
+*.tfstate
+*.tfstate.*
