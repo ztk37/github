@@ -1,14 +1,5 @@
 {
   "private": "true",
-  "scripts": {
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "terraform fmt"
-    }
-  },
-  "devDependencies": {
-    "husky": "^8.0.1"
-  }
+  "scripts": {},
+  "devDependencies": {}
 }
